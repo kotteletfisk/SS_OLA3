@@ -1,431 +1,430 @@
-2025-09-15 15:18:57,175 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
-2025-09-15 15:18:57,203 INFO o.a.j.JMeter: Loading user properties from: /opt/apache-jmeter-5.5/bin/user.properties
-2025-09-15 15:18:57,204 INFO o.a.j.JMeter: Loading system properties from: /opt/apache-jmeter-5.5/bin/system.properties
-2025-09-15 15:18:57,205 INFO o.a.j.JMeter: Setting System property: log4j2.formatMsgNoLookups=true
-2025-09-15 15:18:57,205 INFO o.a.j.JMeter: Setting JMeter property: API_HOST=host.docker.internal
-2025-09-15 15:18:57,206 INFO o.a.j.JMeter: Setting JMeter property: API_PORT=32797
-2025-09-15 15:18:57,216 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
-2025-09-15 15:18:57,216 INFO o.a.j.JMeter: Version 5.5
-2025-09-15 15:18:57,217 INFO o.a.j.JMeter: java.version=1.8.0_275
-2025-09-15 15:18:57,217 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
-2025-09-15 15:18:57,217 INFO o.a.j.JMeter: os.name=Linux
-2025-09-15 15:18:57,217 INFO o.a.j.JMeter: os.arch=amd64
-2025-09-15 15:18:57,217 INFO o.a.j.JMeter: os.version=6.16.5-arch1-1
-2025-09-15 15:18:57,217 INFO o.a.j.JMeter: file.encoding=UTF-8
-2025-09-15 15:18:57,217 INFO o.a.j.JMeter: java.awt.headless=true
-2025-09-15 15:18:57,217 INFO o.a.j.JMeter: Max memory     =21583888384
-2025-09-15 15:18:57,217 INFO o.a.j.JMeter: Available Processors =4
-2025-09-15 15:18:57,227 INFO o.a.j.JMeter: Default Locale=English (EN)
-2025-09-15 15:18:57,227 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
-2025-09-15 15:18:57,227 INFO o.a.j.JMeter: JMeterHome=/opt/apache-jmeter-5.5
-2025-09-15 15:18:57,227 INFO o.a.j.JMeter: user.dir  =/jmeter
-2025-09-15 15:18:57,228 INFO o.a.j.JMeter: PWD       =/jmeter
-2025-09-15 15:18:57,228 INFO o.a.j.JMeter: IP: 172.17.0.4 Name: 503b223126b1 FullName: 503b223126b1
-2025-09-15 15:18:57,228 INFO o.a.j.JMeter: Set Proxy login: 1000:1000
-2025-09-15 15:18:57,292 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/jmeter/report'
-2025-09-15 15:18:57,296 INFO o.a.j.s.FileServer: Default base='/jmeter'
-2025-09-15 15:18:57,300 INFO o.a.j.s.FileServer: Set new base='/jmeter'
-2025-09-15 15:18:57,508 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2025-09-15 15:18:57,533 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2025-09-15 15:18:57,539 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
-2025-09-15 15:18:57,547 INFO o.a.j.s.SaveService: Loading file: test-plan.jmx
-2025-09-15 15:18:57,605 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2025-09-15 15:18:57,605 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2025-09-15 15:18:57,605 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2025-09-15 15:18:57,605 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2025-09-15 15:18:57,605 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
-2025-09-15 15:18:57,606 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
-2025-09-15 15:18:58,013 INFO o.a.j.JMeter: Creating summariser <summary>
-2025-09-15 15:18:58,043 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
-2025-09-15 15:18:58,044 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: results.jtl
-2025-09-15 15:18:58,044 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /opt/apache-jmeter-5.5/bin/reportgenerator.properties
-2025-09-15 15:18:58,045 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
-2025-09-15 15:18:58,064 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
-2025-09-15 15:18:58,070 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
-2025-09-15 15:18:58,070 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
-2025-09-15 15:18:58,070 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
-2025-09-15 15:18:58,070 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
-2025-09-15 15:18:58,070 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
-2025-09-15 15:18:58,071 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
-2025-09-15 15:18:58,071 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
-2025-09-15 15:18:58,071 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
-2025-09-15 15:18:58,081 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
-2025-09-15 15:18:58,081 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
-2025-09-15 15:18:58,081 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
-2025-09-15 15:18:58,081 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
-2025-09-15 15:18:58,082 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
-2025-09-15 15:18:58,082 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
-2025-09-15 15:18:58,082 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
-2025-09-15 15:18:58,082 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
-2025-09-15 15:18:58,084 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
-2025-09-15 15:18:58,084 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
-2025-09-15 15:18:58,087 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
-2025-09-15 15:18:58,087 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
-2025-09-15 15:18:58,088 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
-2025-09-15 15:18:58,089 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
-2025-09-15 15:18:58,089 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
-2025-09-15 15:18:58,089 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
-2025-09-15 15:18:58,104 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2025-09-15 15:18:58,106 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2025-09-15 15:18:58,106 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2025-09-15 15:18:58,116 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
-2025-09-15 15:18:58,116 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
-2025-09-15 15:18:58,474 INFO o.a.j.JMeter: Running test (1757942338474)
-2025-09-15 15:18:58,583 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Users
-2025-09-15 15:18:58,583 INFO o.a.j.e.StandardJMeterEngine: Starting 100 threads for group Users.
-2025-09-15 15:18:58,583 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2025-09-15 15:18:58,583 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=100 ramp-up=5 delayedStart=false
-2025-09-15 15:18:58,592 INFO o.a.j.t.JMeterThread: Thread started: Users 1-1
-2025-09-15 15:18:58,630 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = 503b223126b1
-2025-09-15 15:18:58,638 INFO o.a.j.t.JMeterThread: Thread started: Users 1-2
-2025-09-15 15:18:58,647 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
-2025-09-15 15:18:58,651 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
-2025-09-15 15:18:58,651 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
-2025-09-15 15:18:58,651 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
-2025-09-15 15:18:58,651 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
-2025-09-15 15:18:58,657 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2025-09-15 15:18:58,658 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2025-09-15 15:18:58,685 INFO o.a.j.t.JMeterThread: Thread started: Users 1-3
-2025-09-15 15:18:58,735 INFO o.a.j.t.JMeterThread: Thread started: Users 1-4
-2025-09-15 15:18:58,786 INFO o.a.j.t.JMeterThread: Thread started: Users 1-5
-2025-09-15 15:18:58,839 INFO o.a.j.t.JMeterThread: Thread started: Users 1-6
-2025-09-15 15:18:58,886 INFO o.a.j.t.JMeterThread: Thread started: Users 1-7
-2025-09-15 15:18:58,941 INFO o.a.j.t.JMeterThread: Thread started: Users 1-8
-2025-09-15 15:18:58,984 INFO o.a.j.t.JMeterThread: Thread started: Users 1-9
-2025-09-15 15:18:59,036 INFO o.a.j.t.JMeterThread: Thread started: Users 1-10
-2025-09-15 15:18:59,081 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-5
-2025-09-15 15:18:59,081 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-5
-2025-09-15 15:18:59,086 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-3
-2025-09-15 15:18:59,087 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-3
-2025-09-15 15:18:59,089 INFO o.a.j.t.JMeterThread: Thread started: Users 1-11
-2025-09-15 15:18:59,135 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-1
-2025-09-15 15:18:59,136 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-1
-2025-09-15 15:18:59,141 INFO o.a.j.t.JMeterThread: Thread started: Users 1-12
-2025-09-15 15:18:59,170 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-8
-2025-09-15 15:18:59,177 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-8
-2025-09-15 15:18:59,190 INFO o.a.j.t.JMeterThread: Thread started: Users 1-13
-2025-09-15 15:18:59,210 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-7
-2025-09-15 15:18:59,210 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-7
-2025-09-15 15:18:59,221 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-2
-2025-09-15 15:18:59,221 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-2
-2025-09-15 15:18:59,226 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-9
-2025-09-15 15:18:59,227 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-9
-2025-09-15 15:18:59,228 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-4
-2025-09-15 15:18:59,228 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-4
-2025-09-15 15:18:59,236 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-6
-2025-09-15 15:18:59,236 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-6
-2025-09-15 15:18:59,240 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-11
-2025-09-15 15:18:59,241 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-11
-2025-09-15 15:18:59,242 INFO o.a.j.t.JMeterThread: Thread started: Users 1-14
-2025-09-15 15:18:59,282 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-10
-2025-09-15 15:18:59,283 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-10
-2025-09-15 15:18:59,285 INFO o.a.j.t.JMeterThread: Thread started: Users 1-15
-2025-09-15 15:18:59,336 INFO o.a.j.t.JMeterThread: Thread started: Users 1-16
-2025-09-15 15:18:59,343 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-12
-2025-09-15 15:18:59,343 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-12
-2025-09-15 15:18:59,348 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-13
-2025-09-15 15:18:59,348 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-13
-2025-09-15 15:18:59,385 INFO o.a.j.t.JMeterThread: Thread started: Users 1-17
-2025-09-15 15:18:59,399 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-14
-2025-09-15 15:18:59,399 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-14
-2025-09-15 15:18:59,409 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-15
-2025-09-15 15:18:59,409 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-15
-2025-09-15 15:18:59,436 INFO o.a.j.t.JMeterThread: Thread started: Users 1-18
-2025-09-15 15:18:59,459 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-16
-2025-09-15 15:18:59,459 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-16
-2025-09-15 15:18:59,466 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-17
-2025-09-15 15:18:59,468 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-17
-2025-09-15 15:18:59,486 INFO o.a.j.t.JMeterThread: Thread started: Users 1-19
-2025-09-15 15:18:59,495 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-18
-2025-09-15 15:18:59,496 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-18
-2025-09-15 15:18:59,534 INFO o.a.j.t.JMeterThread: Thread started: Users 1-20
-2025-09-15 15:18:59,536 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-19
-2025-09-15 15:18:59,536 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-19
-2025-09-15 15:18:59,573 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-20
-2025-09-15 15:18:59,573 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-20
-2025-09-15 15:18:59,584 INFO o.a.j.t.JMeterThread: Thread started: Users 1-21
-2025-09-15 15:18:59,615 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-21
-2025-09-15 15:18:59,615 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-21
-2025-09-15 15:18:59,635 INFO o.a.j.t.JMeterThread: Thread started: Users 1-22
-2025-09-15 15:18:59,661 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-22
-2025-09-15 15:18:59,661 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-22
-2025-09-15 15:18:59,684 INFO o.a.j.t.JMeterThread: Thread started: Users 1-23
-2025-09-15 15:18:59,717 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-23
-2025-09-15 15:18:59,718 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-23
-2025-09-15 15:18:59,735 INFO o.a.j.t.JMeterThread: Thread started: Users 1-24
-2025-09-15 15:18:59,764 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-24
-2025-09-15 15:18:59,764 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-24
-2025-09-15 15:18:59,785 INFO o.a.j.t.JMeterThread: Thread started: Users 1-25
-2025-09-15 15:18:59,816 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-25
-2025-09-15 15:18:59,816 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-25
-2025-09-15 15:18:59,835 INFO o.a.j.t.JMeterThread: Thread started: Users 1-26
-2025-09-15 15:18:59,859 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-26
-2025-09-15 15:18:59,859 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-26
-2025-09-15 15:18:59,883 INFO o.a.j.t.JMeterThread: Thread started: Users 1-27
-2025-09-15 15:18:59,909 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-27
-2025-09-15 15:18:59,909 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-27
-2025-09-15 15:18:59,934 INFO o.a.j.t.JMeterThread: Thread started: Users 1-28
-2025-09-15 15:18:59,959 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-28
-2025-09-15 15:18:59,959 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-28
-2025-09-15 15:18:59,985 INFO o.a.j.t.JMeterThread: Thread started: Users 1-29
-2025-09-15 15:19:00,002 INFO o.a.j.r.Summariser: summary +   2878 in 00:00:02 = 1886.0/s Avg:     0 Min:     0 Max:    55 Err:  2878 (100.00%) Active: 1 Started: 29 Finished: 28
-2025-09-15 15:19:00,007 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-29
-2025-09-15 15:19:00,007 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-29
-2025-09-15 15:19:00,035 INFO o.a.j.t.JMeterThread: Thread started: Users 1-30
-2025-09-15 15:19:00,060 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-30
-2025-09-15 15:19:00,060 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-30
-2025-09-15 15:19:00,084 INFO o.a.j.t.JMeterThread: Thread started: Users 1-31
-2025-09-15 15:19:00,118 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-31
-2025-09-15 15:19:00,119 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-31
-2025-09-15 15:19:00,133 INFO o.a.j.t.JMeterThread: Thread started: Users 1-32
-2025-09-15 15:19:00,167 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-32
-2025-09-15 15:19:00,167 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-32
-2025-09-15 15:19:00,184 INFO o.a.j.t.JMeterThread: Thread started: Users 1-33
-2025-09-15 15:19:00,216 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-33
-2025-09-15 15:19:00,216 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-33
-2025-09-15 15:19:00,233 INFO o.a.j.t.JMeterThread: Thread started: Users 1-34
-2025-09-15 15:19:00,250 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-34
-2025-09-15 15:19:00,250 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-34
-2025-09-15 15:19:00,283 INFO o.a.j.t.JMeterThread: Thread started: Users 1-35
-2025-09-15 15:19:00,305 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-35
-2025-09-15 15:19:00,305 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-35
-2025-09-15 15:19:00,333 INFO o.a.j.t.JMeterThread: Thread started: Users 1-36
-2025-09-15 15:19:00,349 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-36
-2025-09-15 15:19:00,349 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-36
-2025-09-15 15:19:00,385 INFO o.a.j.t.JMeterThread: Thread started: Users 1-37
-2025-09-15 15:19:00,444 INFO o.a.j.t.JMeterThread: Thread started: Users 1-38
-2025-09-15 15:19:00,489 INFO o.a.j.t.JMeterThread: Thread started: Users 1-39
-2025-09-15 15:19:00,493 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-37
-2025-09-15 15:19:00,493 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-37
-2025-09-15 15:19:00,515 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-39
-2025-09-15 15:19:00,515 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-39
-2025-09-15 15:19:00,519 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-38
-2025-09-15 15:19:00,519 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-38
-2025-09-15 15:19:00,534 INFO o.a.j.t.JMeterThread: Thread started: Users 1-40
-2025-09-15 15:19:00,549 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-40
-2025-09-15 15:19:00,549 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-40
-2025-09-15 15:19:00,584 INFO o.a.j.t.JMeterThread: Thread started: Users 1-41
-2025-09-15 15:19:00,602 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-41
-2025-09-15 15:19:00,602 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-41
-2025-09-15 15:19:00,634 INFO o.a.j.t.JMeterThread: Thread started: Users 1-42
-2025-09-15 15:19:00,651 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-42
-2025-09-15 15:19:00,651 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-42
-2025-09-15 15:19:00,684 INFO o.a.j.t.JMeterThread: Thread started: Users 1-43
-2025-09-15 15:19:00,712 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-43
-2025-09-15 15:19:00,713 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-43
-2025-09-15 15:19:00,734 INFO o.a.j.t.JMeterThread: Thread started: Users 1-44
-2025-09-15 15:19:00,754 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-44
-2025-09-15 15:19:00,754 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-44
-2025-09-15 15:19:00,784 INFO o.a.j.t.JMeterThread: Thread started: Users 1-45
-2025-09-15 15:19:00,803 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-45
-2025-09-15 15:19:00,803 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-45
-2025-09-15 15:19:00,834 INFO o.a.j.t.JMeterThread: Thread started: Users 1-46
-2025-09-15 15:19:00,852 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-46
-2025-09-15 15:19:00,852 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-46
-2025-09-15 15:19:00,889 INFO o.a.j.t.JMeterThread: Thread started: Users 1-47
-2025-09-15 15:19:00,913 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-47
-2025-09-15 15:19:00,913 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-47
-2025-09-15 15:19:00,935 INFO o.a.j.t.JMeterThread: Thread started: Users 1-48
-2025-09-15 15:19:00,962 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-48
-2025-09-15 15:19:00,962 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-48
-2025-09-15 15:19:00,987 INFO o.a.j.t.JMeterThread: Thread started: Users 1-49
-2025-09-15 15:19:01,013 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-49
-2025-09-15 15:19:01,013 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-49
-2025-09-15 15:19:01,037 INFO o.a.j.t.JMeterThread: Thread started: Users 1-50
-2025-09-15 15:19:01,066 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-50
-2025-09-15 15:19:01,066 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-50
-2025-09-15 15:19:01,086 INFO o.a.j.t.JMeterThread: Thread started: Users 1-51
-2025-09-15 15:19:01,122 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-51
-2025-09-15 15:19:01,122 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-51
-2025-09-15 15:19:01,136 INFO o.a.j.t.JMeterThread: Thread started: Users 1-52
-2025-09-15 15:19:01,168 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-52
-2025-09-15 15:19:01,168 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-52
-2025-09-15 15:19:01,184 INFO o.a.j.t.JMeterThread: Thread started: Users 1-53
-2025-09-15 15:19:01,211 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-53
-2025-09-15 15:19:01,212 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-53
-2025-09-15 15:19:01,235 INFO o.a.j.t.JMeterThread: Thread started: Users 1-54
-2025-09-15 15:19:01,255 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-54
-2025-09-15 15:19:01,255 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-54
-2025-09-15 15:19:01,285 INFO o.a.j.t.JMeterThread: Thread started: Users 1-55
-2025-09-15 15:19:01,310 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-55
-2025-09-15 15:19:01,310 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-55
-2025-09-15 15:19:01,334 INFO o.a.j.t.JMeterThread: Thread started: Users 1-56
-2025-09-15 15:19:01,350 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-56
-2025-09-15 15:19:01,351 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-56
-2025-09-15 15:19:01,385 INFO o.a.j.t.JMeterThread: Thread started: Users 1-57
-2025-09-15 15:19:01,406 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-57
-2025-09-15 15:19:01,407 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-57
-2025-09-15 15:19:01,438 INFO o.a.j.t.JMeterThread: Thread started: Users 1-58
-2025-09-15 15:19:01,485 INFO o.a.j.t.JMeterThread: Thread started: Users 1-59
-2025-09-15 15:19:01,536 INFO o.a.j.t.JMeterThread: Thread started: Users 1-60
-2025-09-15 15:19:01,585 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-59
-2025-09-15 15:19:01,585 INFO o.a.j.t.JMeterThread: Thread started: Users 1-61
-2025-09-15 15:19:01,585 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-59
-2025-09-15 15:19:01,603 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-58
-2025-09-15 15:19:01,603 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-58
-2025-09-15 15:19:01,605 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-60
-2025-09-15 15:19:01,605 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-60
-2025-09-15 15:19:01,619 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-61
-2025-09-15 15:19:01,619 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-61
-2025-09-15 15:19:01,635 INFO o.a.j.t.JMeterThread: Thread started: Users 1-62
-2025-09-15 15:19:01,655 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-62
-2025-09-15 15:19:01,655 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-62
-2025-09-15 15:19:01,685 INFO o.a.j.t.JMeterThread: Thread started: Users 1-63
-2025-09-15 15:19:01,711 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-63
-2025-09-15 15:19:01,711 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-63
-2025-09-15 15:19:01,734 INFO o.a.j.t.JMeterThread: Thread started: Users 1-64
-2025-09-15 15:19:01,765 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-64
-2025-09-15 15:19:01,765 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-64
-2025-09-15 15:19:01,786 INFO o.a.j.t.JMeterThread: Thread started: Users 1-65
-2025-09-15 15:19:01,812 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-65
-2025-09-15 15:19:01,812 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-65
-2025-09-15 15:19:01,834 INFO o.a.j.t.JMeterThread: Thread started: Users 1-66
-2025-09-15 15:19:01,855 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-66
-2025-09-15 15:19:01,856 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-66
-2025-09-15 15:19:01,885 INFO o.a.j.t.JMeterThread: Thread started: Users 1-67
-2025-09-15 15:19:01,934 INFO o.a.j.t.JMeterThread: Thread started: Users 1-68
-2025-09-15 15:19:01,985 INFO o.a.j.t.JMeterThread: Thread started: Users 1-69
-2025-09-15 15:19:02,003 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-67
-2025-09-15 15:19:02,003 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-67
-2025-09-15 15:19:02,004 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-68
-2025-09-15 15:19:02,005 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-68
-2025-09-15 15:19:02,017 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-69
-2025-09-15 15:19:02,017 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-69
-2025-09-15 15:19:02,034 INFO o.a.j.t.JMeterThread: Thread started: Users 1-70
-2025-09-15 15:19:02,060 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-70
-2025-09-15 15:19:02,060 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-70
-2025-09-15 15:19:02,085 INFO o.a.j.t.JMeterThread: Thread started: Users 1-71
-2025-09-15 15:19:02,116 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-71
-2025-09-15 15:19:02,116 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-71
-2025-09-15 15:19:02,135 INFO o.a.j.t.JMeterThread: Thread started: Users 1-72
-2025-09-15 15:19:02,155 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-72
-2025-09-15 15:19:02,155 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-72
-2025-09-15 15:19:02,185 INFO o.a.j.t.JMeterThread: Thread started: Users 1-73
-2025-09-15 15:19:02,212 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-73
-2025-09-15 15:19:02,213 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-73
-2025-09-15 15:19:02,235 INFO o.a.j.t.JMeterThread: Thread started: Users 1-74
-2025-09-15 15:19:02,261 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-74
-2025-09-15 15:19:02,261 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-74
-2025-09-15 15:19:02,285 INFO o.a.j.t.JMeterThread: Thread started: Users 1-75
-2025-09-15 15:19:02,312 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-75
-2025-09-15 15:19:02,312 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-75
-2025-09-15 15:19:02,334 INFO o.a.j.t.JMeterThread: Thread started: Users 1-76
-2025-09-15 15:19:02,356 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-76
-2025-09-15 15:19:02,356 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-76
-2025-09-15 15:19:02,385 INFO o.a.j.t.JMeterThread: Thread started: Users 1-77
-2025-09-15 15:19:02,402 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-77
-2025-09-15 15:19:02,402 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-77
-2025-09-15 15:19:02,435 INFO o.a.j.t.JMeterThread: Thread started: Users 1-78
-2025-09-15 15:19:02,451 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-78
-2025-09-15 15:19:02,451 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-78
-2025-09-15 15:19:02,484 INFO o.a.j.t.JMeterThread: Thread started: Users 1-79
-2025-09-15 15:19:02,501 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-79
-2025-09-15 15:19:02,501 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-79
-2025-09-15 15:19:02,535 INFO o.a.j.t.JMeterThread: Thread started: Users 1-80
-2025-09-15 15:19:02,555 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-80
-2025-09-15 15:19:02,556 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-80
-2025-09-15 15:19:02,585 INFO o.a.j.t.JMeterThread: Thread started: Users 1-81
-2025-09-15 15:19:02,607 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-81
-2025-09-15 15:19:02,607 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-81
-2025-09-15 15:19:02,635 INFO o.a.j.t.JMeterThread: Thread started: Users 1-82
-2025-09-15 15:19:02,655 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-82
-2025-09-15 15:19:02,655 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-82
-2025-09-15 15:19:02,684 INFO o.a.j.t.JMeterThread: Thread started: Users 1-83
-2025-09-15 15:19:02,709 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-83
-2025-09-15 15:19:02,710 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-83
-2025-09-15 15:19:02,734 INFO o.a.j.t.JMeterThread: Thread started: Users 1-84
-2025-09-15 15:19:02,785 INFO o.a.j.t.JMeterThread: Thread started: Users 1-85
-2025-09-15 15:19:02,834 INFO o.a.j.t.JMeterThread: Thread started: Users 1-86
-2025-09-15 15:19:02,836 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-84
-2025-09-15 15:19:02,836 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-84
-2025-09-15 15:19:02,849 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-85
-2025-09-15 15:19:02,849 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-85
-2025-09-15 15:19:02,868 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-86
-2025-09-15 15:19:02,868 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-86
-2025-09-15 15:19:02,886 INFO o.a.j.t.JMeterThread: Thread started: Users 1-87
-2025-09-15 15:19:02,900 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-87
-2025-09-15 15:19:02,900 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-87
-2025-09-15 15:19:02,937 INFO o.a.j.t.JMeterThread: Thread started: Users 1-88
-2025-09-15 15:19:02,957 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-88
-2025-09-15 15:19:02,957 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-88
-2025-09-15 15:19:02,985 INFO o.a.j.t.JMeterThread: Thread started: Users 1-89
-2025-09-15 15:19:03,035 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-89
-2025-09-15 15:19:03,035 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-89
-2025-09-15 15:19:03,036 INFO o.a.j.t.JMeterThread: Thread started: Users 1-90
-2025-09-15 15:19:03,086 INFO o.a.j.t.JMeterThread: Thread started: Users 1-91
-2025-09-15 15:19:03,113 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-90
-2025-09-15 15:19:03,114 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-90
-2025-09-15 15:19:03,133 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-91
-2025-09-15 15:19:03,133 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-91
-2025-09-15 15:19:03,134 INFO o.a.j.t.JMeterThread: Thread started: Users 1-92
-2025-09-15 15:19:03,154 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-92
-2025-09-15 15:19:03,154 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-92
-2025-09-15 15:19:03,184 INFO o.a.j.t.JMeterThread: Thread started: Users 1-93
-2025-09-15 15:19:03,206 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-93
-2025-09-15 15:19:03,206 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-93
-2025-09-15 15:19:03,234 INFO o.a.j.t.JMeterThread: Thread started: Users 1-94
-2025-09-15 15:19:03,253 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-94
-2025-09-15 15:19:03,253 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-94
-2025-09-15 15:19:03,285 INFO o.a.j.t.JMeterThread: Thread started: Users 1-95
-2025-09-15 15:19:03,308 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-95
-2025-09-15 15:19:03,308 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-95
-2025-09-15 15:19:03,335 INFO o.a.j.t.JMeterThread: Thread started: Users 1-96
-2025-09-15 15:19:03,357 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-96
-2025-09-15 15:19:03,357 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-96
-2025-09-15 15:19:03,384 INFO o.a.j.t.JMeterThread: Thread started: Users 1-97
-2025-09-15 15:19:03,407 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-97
-2025-09-15 15:19:03,408 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-97
-2025-09-15 15:19:03,434 INFO o.a.j.t.JMeterThread: Thread started: Users 1-98
-2025-09-15 15:19:03,458 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-98
-2025-09-15 15:19:03,458 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-98
-2025-09-15 15:19:03,484 INFO o.a.j.t.JMeterThread: Thread started: Users 1-99
-2025-09-15 15:19:03,507 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-99
-2025-09-15 15:19:03,507 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-99
-2025-09-15 15:19:03,536 INFO o.a.j.t.JMeterThread: Thread started: Users 1-100
-2025-09-15 15:19:03,557 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-100
-2025-09-15 15:19:03,557 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-100
-2025-09-15 15:19:03,557 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2025-09-15 15:19:03,558 INFO o.a.j.r.Summariser: summary +   7122 in 00:00:04 = 2002.2/s Avg:     0 Min:     0 Max:     7 Err:  7122 (100.00%) Active: 0 Started: 100 Finished: 100
-2025-09-15 15:19:03,558 INFO o.a.j.r.Summariser: summary =  10000 in 00:00:05 = 1967.0/s Avg:     0 Min:     0 Max:    55 Err: 10000 (100.00%)
-2025-09-15 15:19:03,559 INFO o.a.j.JMeter: Generating Dashboard
-2025-09-15 15:19:03,559 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
-2025-09-15 15:19:03,573 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
-2025-09-15 15:19:04,383 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
-2025-09-15 15:19:04,383 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
-2025-09-15 15:19:04,386 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
-2025-09-15 15:19:04,386 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
-2025-09-15 15:19:04,403 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
-2025-09-15 15:19:04,409 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
-2025-09-15 15:19:04,409 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
-2025-09-15 15:19:04,409 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
-2025-09-15 15:19:04,588 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
-2025-09-15 15:19:04,591 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
-2025-09-15 15:19:04,592 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
-2025-09-15 15:19:04,592 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
-2025-09-15 15:19:04,650 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
-2025-09-15 15:19:04,651 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 70000 samples
-2025-09-15 15:19:04,651 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
-2025-09-15 15:19:04,652 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
-2025-09-15 15:19:04,652 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
-2025-09-15 15:19:04,652 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
-2025-09-15 15:19:04,652 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
-2025-09-15 15:19:04,653 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
-2025-09-15 15:19:04,654 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
-2025-09-15 15:19:04,654 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
-2025-09-15 15:19:04,654 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
-2025-09-15 15:19:04,654 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
-2025-09-15 15:19:04,655 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 150000 samples
-2025-09-15 15:19:04,655 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 30000 samples
-2025-09-15 15:19:04,655 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 10000 samples
-2025-09-15 15:19:04,656 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 10000 samples produced in 1s 48 ms on channel 0
-2025-09-15 15:19:04,656 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
-2025-09-15 15:19:04,807 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
-2025-09-15 15:19:04,807 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
-2025-09-15 15:19:04,807 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
-2025-09-15 15:19:04,808 INFO o.a.j.r.d.JsonExporter: Checking output folder
-2025-09-15 15:19:04,808 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to /jmeter/report/statistics.json
-2025-09-15 15:19:04,858 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
-2025-09-15 15:19:04,860 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: /jmeter/report
-2025-09-15 15:19:05,003 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: /jmeter/report, creating folder structure
-2025-09-15 15:19:05,007 INFO o.a.j.r.d.TemplateVisitor: Copying folder from '/opt/apache-jmeter-5.5/bin/report-template' to '/jmeter/report', got message: /jmeter/report, found non empty folder with following content [/jmeter/report/statistics.json], will be ignored
-2025-09-15 15:19:05,291 INFO o.a.j.JMeter: Dashboard generated
+2025-09-15 22:06:33,176 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2025-09-15 22:06:33,206 INFO o.a.j.JMeter: Loading user properties from: /opt/apache-jmeter-5.5/bin/user.properties
+2025-09-15 22:06:33,208 INFO o.a.j.JMeter: Loading system properties from: /opt/apache-jmeter-5.5/bin/system.properties
+2025-09-15 22:06:33,208 INFO o.a.j.JMeter: Setting System property: log4j2.formatMsgNoLookups=true
+2025-09-15 22:06:33,208 INFO o.a.j.JMeter: Setting JMeter property: API_HOST=host.docker.internal
+2025-09-15 22:06:33,209 INFO o.a.j.JMeter: Setting JMeter property: API_PORT=55389
+2025-09-15 22:06:33,216 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
+2025-09-15 22:06:33,219 INFO o.a.j.JMeter: Version 5.5
+2025-09-15 22:06:33,219 INFO o.a.j.JMeter: java.version=1.8.0_275
+2025-09-15 22:06:33,219 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2025-09-15 22:06:33,220 INFO o.a.j.JMeter: os.name=Linux
+2025-09-15 22:06:33,220 INFO o.a.j.JMeter: os.arch=amd64
+2025-09-15 22:06:33,220 INFO o.a.j.JMeter: os.version=6.6.87.2-microsoft-standard-WSL2
+2025-09-15 22:06:33,220 INFO o.a.j.JMeter: file.encoding=UTF-8
+2025-09-15 22:06:33,220 INFO o.a.j.JMeter: java.awt.headless=true
+2025-09-15 22:06:33,221 INFO o.a.j.JMeter: Max memory     =9361686528
+2025-09-15 22:06:33,221 INFO o.a.j.JMeter: Available Processors =16
+2025-09-15 22:06:33,230 INFO o.a.j.JMeter: Default Locale=English (EN)
+2025-09-15 22:06:33,231 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2025-09-15 22:06:33,231 INFO o.a.j.JMeter: JMeterHome=/opt/apache-jmeter-5.5
+2025-09-15 22:06:33,232 INFO o.a.j.JMeter: user.dir  =/jmeter
+2025-09-15 22:06:33,235 INFO o.a.j.JMeter: PWD       =/jmeter
+2025-09-15 22:06:33,236 INFO o.a.j.JMeter: IP: 172.17.0.4 Name: 64dd6f72be63 FullName: 64dd6f72be63
+2025-09-15 22:06:33,269 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/jmeter/report'
+2025-09-15 22:06:33,276 INFO o.a.j.s.FileServer: Default base='/jmeter'
+2025-09-15 22:06:33,277 INFO o.a.j.s.FileServer: Set new base='/jmeter'
+2025-09-15 22:06:33,446 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2025-09-15 22:06:33,473 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2025-09-15 22:06:33,481 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2025-09-15 22:06:33,489 INFO o.a.j.s.SaveService: Loading file: test-plan.jmx
+2025-09-15 22:06:33,553 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-09-15 22:06:33,554 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-09-15 22:06:33,554 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-09-15 22:06:33,555 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-09-15 22:06:33,555 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2025-09-15 22:06:33,555 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2025-09-15 22:06:33,904 INFO o.a.j.JMeter: Creating summariser <summary>
+2025-09-15 22:06:33,920 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2025-09-15 22:06:33,921 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: results.jtl
+2025-09-15 22:06:33,921 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /opt/apache-jmeter-5.5/bin/reportgenerator.properties
+2025-09-15 22:06:33,922 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2025-09-15 22:06:33,929 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2025-09-15 22:06:33,932 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2025-09-15 22:06:33,933 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2025-09-15 22:06:33,933 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2025-09-15 22:06:33,933 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2025-09-15 22:06:33,933 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2025-09-15 22:06:33,934 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2025-09-15 22:06:33,934 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2025-09-15 22:06:33,935 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2025-09-15 22:06:33,940 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2025-09-15 22:06:33,941 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-09-15 22:06:33,941 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2025-09-15 22:06:33,941 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2025-09-15 22:06:33,942 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2025-09-15 22:06:33,942 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2025-09-15 22:06:33,942 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-09-15 22:06:33,943 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-09-15 22:06:33,943 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-09-15 22:06:33,943 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-09-15 22:06:33,945 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2025-09-15 22:06:33,945 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2025-09-15 22:06:33,945 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2025-09-15 22:06:33,946 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2025-09-15 22:06:33,946 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2025-09-15 22:06:33,947 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2025-09-15 22:06:33,956 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2025-09-15 22:06:33,957 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-09-15 22:06:33,957 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-09-15 22:06:33,962 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2025-09-15 22:06:33,963 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2025-09-15 22:06:34,236 INFO o.a.j.JMeter: Running test (1757966794236)
+2025-09-15 22:06:34,344 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Users
+2025-09-15 22:06:34,344 INFO o.a.j.e.StandardJMeterEngine: Starting 100 threads for group Users.
+2025-09-15 22:06:34,345 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-09-15 22:06:34,345 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=100 ramp-up=5 delayedStart=false
+2025-09-15 22:06:34,352 INFO o.a.j.t.JMeterThread: Thread started: Users 1-1
+2025-09-15 22:06:34,381 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = 64dd6f72be63
+2025-09-15 22:06:34,391 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2025-09-15 22:06:34,392 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2025-09-15 22:06:34,393 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2025-09-15 22:06:34,393 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2025-09-15 22:06:34,394 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2025-09-15 22:06:34,394 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2025-09-15 22:06:34,394 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2025-09-15 22:06:34,398 INFO o.a.j.t.JMeterThread: Thread started: Users 1-2
+2025-09-15 22:06:34,447 INFO o.a.j.t.JMeterThread: Thread started: Users 1-3
+2025-09-15 22:06:34,496 INFO o.a.j.t.JMeterThread: Thread started: Users 1-4
+2025-09-15 22:06:34,546 INFO o.a.j.t.JMeterThread: Thread started: Users 1-5
+2025-09-15 22:06:34,596 INFO o.a.j.t.JMeterThread: Thread started: Users 1-6
+2025-09-15 22:06:34,645 INFO o.a.j.t.JMeterThread: Thread started: Users 1-7
+2025-09-15 22:06:34,696 INFO o.a.j.t.JMeterThread: Thread started: Users 1-8
+2025-09-15 22:06:34,743 INFO o.a.j.r.Summariser: summary +      1 in 00:00:01 =    2.0/s Avg:   254 Min:   254 Max:   254 Err:     0 (0.00%) Active: 8 Started: 8 Finished: 0
+2025-09-15 22:06:34,746 INFO o.a.j.t.JMeterThread: Thread started: Users 1-9
+2025-09-15 22:06:34,796 INFO o.a.j.t.JMeterThread: Thread started: Users 1-10
+2025-09-15 22:06:34,846 INFO o.a.j.t.JMeterThread: Thread started: Users 1-11
+2025-09-15 22:06:34,895 INFO o.a.j.t.JMeterThread: Thread started: Users 1-12
+2025-09-15 22:06:34,946 INFO o.a.j.t.JMeterThread: Thread started: Users 1-13
+2025-09-15 22:06:34,996 INFO o.a.j.t.JMeterThread: Thread started: Users 1-14
+2025-09-15 22:06:35,047 INFO o.a.j.t.JMeterThread: Thread started: Users 1-15
+2025-09-15 22:06:35,096 INFO o.a.j.t.JMeterThread: Thread started: Users 1-16
+2025-09-15 22:06:35,146 INFO o.a.j.t.JMeterThread: Thread started: Users 1-17
+2025-09-15 22:06:35,197 INFO o.a.j.t.JMeterThread: Thread started: Users 1-18
+2025-09-15 22:06:35,245 INFO o.a.j.t.JMeterThread: Thread started: Users 1-19
+2025-09-15 22:06:35,296 INFO o.a.j.t.JMeterThread: Thread started: Users 1-20
+2025-09-15 22:06:35,349 INFO o.a.j.t.JMeterThread: Thread started: Users 1-21
+2025-09-15 22:06:35,396 INFO o.a.j.t.JMeterThread: Thread started: Users 1-22
+2025-09-15 22:06:35,447 INFO o.a.j.t.JMeterThread: Thread started: Users 1-23
+2025-09-15 22:06:35,495 INFO o.a.j.t.JMeterThread: Thread started: Users 1-24
+2025-09-15 22:06:35,546 INFO o.a.j.t.JMeterThread: Thread started: Users 1-25
+2025-09-15 22:06:35,595 INFO o.a.j.t.JMeterThread: Thread started: Users 1-26
+2025-09-15 22:06:35,651 INFO o.a.j.t.JMeterThread: Thread started: Users 1-27
+2025-09-15 22:06:35,697 INFO o.a.j.t.JMeterThread: Thread started: Users 1-28
+2025-09-15 22:06:35,748 INFO o.a.j.t.JMeterThread: Thread started: Users 1-29
+2025-09-15 22:06:35,796 INFO o.a.j.t.JMeterThread: Thread started: Users 1-30
+2025-09-15 22:06:35,846 INFO o.a.j.t.JMeterThread: Thread started: Users 1-31
+2025-09-15 22:06:35,896 INFO o.a.j.t.JMeterThread: Thread started: Users 1-32
+2025-09-15 22:06:35,946 INFO o.a.j.t.JMeterThread: Thread started: Users 1-33
+2025-09-15 22:06:35,999 INFO o.a.j.t.JMeterThread: Thread started: Users 1-34
+2025-09-15 22:06:36,046 INFO o.a.j.t.JMeterThread: Thread started: Users 1-35
+2025-09-15 22:06:36,096 INFO o.a.j.t.JMeterThread: Thread started: Users 1-36
+2025-09-15 22:06:36,148 INFO o.a.j.t.JMeterThread: Thread started: Users 1-37
+2025-09-15 22:06:36,199 INFO o.a.j.t.JMeterThread: Thread started: Users 1-38
+2025-09-15 22:06:36,250 INFO o.a.j.t.JMeterThread: Thread started: Users 1-39
+2025-09-15 22:06:36,298 INFO o.a.j.t.JMeterThread: Thread started: Users 1-40
+2025-09-15 22:06:36,348 INFO o.a.j.t.JMeterThread: Thread started: Users 1-41
+2025-09-15 22:06:36,396 INFO o.a.j.t.JMeterThread: Thread started: Users 1-42
+2025-09-15 22:06:36,451 INFO o.a.j.t.JMeterThread: Thread started: Users 1-43
+2025-09-15 22:06:36,497 INFO o.a.j.t.JMeterThread: Thread started: Users 1-44
+2025-09-15 22:06:36,547 INFO o.a.j.t.JMeterThread: Thread started: Users 1-45
+2025-09-15 22:06:36,598 INFO o.a.j.t.JMeterThread: Thread started: Users 1-46
+2025-09-15 22:06:36,639 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-8
+2025-09-15 22:06:36,641 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-8
+2025-09-15 22:06:36,647 INFO o.a.j.t.JMeterThread: Thread started: Users 1-47
+2025-09-15 22:06:36,652 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-2
+2025-09-15 22:06:36,653 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-2
+2025-09-15 22:06:36,652 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-4
+2025-09-15 22:06:36,657 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-4
+2025-09-15 22:06:36,657 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-5
+2025-09-15 22:06:36,659 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-5
+2025-09-15 22:06:36,678 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-3
+2025-09-15 22:06:36,681 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-3
+2025-09-15 22:06:36,694 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-10
+2025-09-15 22:06:36,695 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-10
+2025-09-15 22:06:36,696 INFO o.a.j.t.JMeterThread: Thread started: Users 1-48
+2025-09-15 22:06:36,703 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-7
+2025-09-15 22:06:36,705 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-7
+2025-09-15 22:06:36,746 INFO o.a.j.t.JMeterThread: Thread started: Users 1-49
+2025-09-15 22:06:36,796 INFO o.a.j.t.JMeterThread: Thread started: Users 1-50
+2025-09-15 22:06:36,846 INFO o.a.j.t.JMeterThread: Thread started: Users 1-51
+2025-09-15 22:06:36,890 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-18
+2025-09-15 22:06:36,894 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-18
+2025-09-15 22:06:36,897 INFO o.a.j.t.JMeterThread: Thread started: Users 1-52
+2025-09-15 22:06:36,945 INFO o.a.j.t.JMeterThread: Thread started: Users 1-53
+2025-09-15 22:06:36,996 INFO o.a.j.t.JMeterThread: Thread started: Users 1-54
+2025-09-15 22:06:37,047 INFO o.a.j.t.JMeterThread: Thread started: Users 1-55
+2025-09-15 22:06:37,095 INFO o.a.j.t.JMeterThread: Thread started: Users 1-56
+2025-09-15 22:06:37,146 INFO o.a.j.t.JMeterThread: Thread started: Users 1-57
+2025-09-15 22:06:37,196 INFO o.a.j.t.JMeterThread: Thread started: Users 1-58
+2025-09-15 22:06:37,227 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-32
+2025-09-15 22:06:37,228 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-32
+2025-09-15 22:06:37,245 INFO o.a.j.t.JMeterThread: Thread started: Users 1-59
+2025-09-15 22:06:37,287 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-36
+2025-09-15 22:06:37,288 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-36
+2025-09-15 22:06:37,296 INFO o.a.j.t.JMeterThread: Thread started: Users 1-60
+2025-09-15 22:06:37,345 INFO o.a.j.t.JMeterThread: Thread started: Users 1-61
+2025-09-15 22:06:37,396 INFO o.a.j.t.JMeterThread: Thread started: Users 1-62
+2025-09-15 22:06:37,404 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-44
+2025-09-15 22:06:37,405 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-44
+2025-09-15 22:06:37,445 INFO o.a.j.t.JMeterThread: Thread started: Users 1-63
+2025-09-15 22:06:37,497 INFO o.a.j.t.JMeterThread: Thread started: Users 1-64
+2025-09-15 22:06:37,546 INFO o.a.j.t.JMeterThread: Thread started: Users 1-65
+2025-09-15 22:06:37,596 INFO o.a.j.t.JMeterThread: Thread started: Users 1-66
+2025-09-15 22:06:37,645 INFO o.a.j.t.JMeterThread: Thread started: Users 1-67
+2025-09-15 22:06:37,696 INFO o.a.j.t.JMeterThread: Thread started: Users 1-68
+2025-09-15 22:06:37,745 INFO o.a.j.t.JMeterThread: Thread started: Users 1-69
+2025-09-15 22:06:37,796 INFO o.a.j.t.JMeterThread: Thread started: Users 1-70
+2025-09-15 22:06:37,846 INFO o.a.j.t.JMeterThread: Thread started: Users 1-71
+2025-09-15 22:06:37,896 INFO o.a.j.t.JMeterThread: Thread started: Users 1-72
+2025-09-15 22:06:37,946 INFO o.a.j.t.JMeterThread: Thread started: Users 1-73
+2025-09-15 22:06:37,995 INFO o.a.j.t.JMeterThread: Thread started: Users 1-74
+2025-09-15 22:06:38,046 INFO o.a.j.t.JMeterThread: Thread started: Users 1-75
+2025-09-15 22:06:38,096 INFO o.a.j.t.JMeterThread: Thread started: Users 1-76
+2025-09-15 22:06:38,146 INFO o.a.j.t.JMeterThread: Thread started: Users 1-77
+2025-09-15 22:06:38,196 INFO o.a.j.t.JMeterThread: Thread started: Users 1-78
+2025-09-15 22:06:38,246 INFO o.a.j.t.JMeterThread: Thread started: Users 1-79
+2025-09-15 22:06:38,296 INFO o.a.j.t.JMeterThread: Thread started: Users 1-80
+2025-09-15 22:06:38,345 INFO o.a.j.t.JMeterThread: Thread started: Users 1-81
+2025-09-15 22:06:38,396 INFO o.a.j.t.JMeterThread: Thread started: Users 1-82
+2025-09-15 22:06:38,445 INFO o.a.j.t.JMeterThread: Thread started: Users 1-83
+2025-09-15 22:06:38,497 INFO o.a.j.t.JMeterThread: Thread started: Users 1-84
+2025-09-15 22:06:38,546 INFO o.a.j.t.JMeterThread: Thread started: Users 1-85
+2025-09-15 22:06:38,596 INFO o.a.j.t.JMeterThread: Thread started: Users 1-86
+2025-09-15 22:06:38,647 INFO o.a.j.t.JMeterThread: Thread started: Users 1-87
+2025-09-15 22:06:38,696 INFO o.a.j.t.JMeterThread: Thread started: Users 1-88
+2025-09-15 22:06:38,746 INFO o.a.j.t.JMeterThread: Thread started: Users 1-89
+2025-09-15 22:06:38,796 INFO o.a.j.t.JMeterThread: Thread started: Users 1-90
+2025-09-15 22:06:38,846 INFO o.a.j.t.JMeterThread: Thread started: Users 1-91
+2025-09-15 22:06:38,897 INFO o.a.j.t.JMeterThread: Thread started: Users 1-92
+2025-09-15 22:06:38,945 INFO o.a.j.t.JMeterThread: Thread started: Users 1-93
+2025-09-15 22:06:38,996 INFO o.a.j.t.JMeterThread: Thread started: Users 1-94
+2025-09-15 22:06:39,045 INFO o.a.j.t.JMeterThread: Thread started: Users 1-95
+2025-09-15 22:06:39,096 INFO o.a.j.t.JMeterThread: Thread started: Users 1-96
+2025-09-15 22:06:39,146 INFO o.a.j.t.JMeterThread: Thread started: Users 1-97
+2025-09-15 22:06:39,196 INFO o.a.j.t.JMeterThread: Thread started: Users 1-98
+2025-09-15 22:06:39,246 INFO o.a.j.t.JMeterThread: Thread started: Users 1-99
+2025-09-15 22:06:39,296 INFO o.a.j.t.JMeterThread: Thread started: Users 1-100
+2025-09-15 22:07:44,976 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-6
+2025-09-15 22:07:44,977 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-6
+2025-09-15 22:07:44,984 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-1
+2025-09-15 22:07:44,988 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-1
+2025-09-15 22:07:45,018 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-11
+2025-09-15 22:07:45,021 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-11
+2025-09-15 22:07:45,098 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-9
+2025-09-15 22:07:45,103 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-9
+2025-09-15 22:07:45,157 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-13
+2025-09-15 22:07:45,162 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-13
+2025-09-15 22:07:45,287 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-12
+2025-09-15 22:07:45,287 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-12
+2025-09-15 22:07:45,295 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-14
+2025-09-15 22:07:45,296 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-14
+2025-09-15 22:07:45,311 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-15
+2025-09-15 22:07:45,311 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-15
+2025-09-15 22:07:45,505 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-16
+2025-09-15 22:07:45,506 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-16
+2025-09-15 22:07:45,514 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-19
+2025-09-15 22:07:45,515 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-19
+2025-09-15 22:07:45,561 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-17
+2025-09-15 22:07:45,565 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-17
+2025-09-15 22:07:45,631 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-20
+2025-09-15 22:07:45,632 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-20
+2025-09-15 22:07:45,687 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-24
+2025-09-15 22:07:45,692 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-24
+2025-09-15 22:07:45,705 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-23
+2025-09-15 22:07:45,706 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-23
+2025-09-15 22:07:45,753 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-25
+2025-09-15 22:07:45,755 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-25
+2025-09-15 22:07:45,766 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-22
+2025-09-15 22:07:45,768 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-22
+2025-09-15 22:07:45,776 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-26
+2025-09-15 22:07:45,776 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-26
+2025-09-15 22:07:45,881 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-28
+2025-09-15 22:07:45,882 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-28
+2025-09-15 22:07:45,892 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-30
+2025-09-15 22:07:45,894 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-30
+2025-09-15 22:07:45,904 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-27
+2025-09-15 22:07:45,904 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-27
+2025-09-15 22:07:45,916 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-29
+2025-09-15 22:07:45,917 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-29
+2025-09-15 22:07:45,948 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-31
+2025-09-15 22:07:45,950 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-31
+2025-09-15 22:07:45,996 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-35
+2025-09-15 22:07:46,000 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-35
+2025-09-15 22:07:46,028 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-33
+2025-09-15 22:07:46,029 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-33
+2025-09-15 22:07:46,082 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-37
+2025-09-15 22:07:46,083 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-37
+2025-09-15 22:07:46,088 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-34
+2025-09-15 22:07:46,090 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-34
+2025-09-15 22:07:46,118 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-39
+2025-09-15 22:07:46,119 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-39
+2025-09-15 22:07:46,122 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-38
+2025-09-15 22:07:46,123 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-38
+2025-09-15 22:07:46,140 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-41
+2025-09-15 22:07:46,141 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-41
+2025-09-15 22:07:46,150 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-43
+2025-09-15 22:07:46,150 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-43
+2025-09-15 22:07:46,163 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-40
+2025-09-15 22:07:46,164 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-40
+2025-09-15 22:07:46,183 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-42
+2025-09-15 22:07:46,184 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-42
+2025-09-15 22:07:46,195 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-45
+2025-09-15 22:07:46,195 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-45
+2025-09-15 22:07:46,207 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-47
+2025-09-15 22:07:46,208 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-47
+2025-09-15 22:07:46,216 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-48
+2025-09-15 22:07:46,217 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-48
+2025-09-15 22:07:47,085 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-46
+2025-09-15 22:07:47,089 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-46
+2025-09-15 22:08:54,664 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-21
+2025-09-15 22:08:54,664 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-21
+2025-09-15 22:08:56,768 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-49
+2025-09-15 22:08:56,771 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-49
+2025-09-15 22:08:57,091 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-51
+2025-09-15 22:08:57,094 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-51
+2025-09-15 22:08:57,140 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-50
+2025-09-15 22:08:57,144 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-50
+2025-09-15 22:08:57,504 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-56
+2025-09-15 22:08:57,507 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-56
+2025-09-15 22:08:57,666 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-53
+2025-09-15 22:08:57,667 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-53
+2025-09-15 22:08:57,770 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-54
+2025-09-15 22:08:57,772 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-54
+2025-09-15 22:08:57,828 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-52
+2025-09-15 22:08:57,836 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-52
+2025-09-15 22:08:58,069 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-55
+2025-09-15 22:08:58,070 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-55
+2025-09-15 22:08:58,414 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-57
+2025-09-15 22:08:58,415 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-57
+2025-09-15 22:08:58,560 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-71
+2025-09-15 22:08:58,561 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-71
+2025-09-15 22:08:58,583 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-58
+2025-09-15 22:08:58,585 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-58
+2025-09-15 22:08:58,655 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-95
+2025-09-15 22:08:58,658 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-95
+2025-09-15 22:08:58,727 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-79
+2025-09-15 22:08:58,728 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-79
+2025-09-15 22:08:58,743 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-96
+2025-09-15 22:08:58,744 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-96
+2025-09-15 22:08:58,745 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-60
+2025-09-15 22:08:58,748 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-60
+2025-09-15 22:08:58,776 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-64
+2025-09-15 22:08:58,777 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-64
+2025-09-15 22:08:58,785 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-63
+2025-09-15 22:08:58,787 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-63
+2025-09-15 22:08:58,787 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-66
+2025-09-15 22:08:58,787 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-66
+2025-09-15 22:08:58,797 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-61
+2025-09-15 22:08:58,797 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-61
+2025-09-15 22:08:58,800 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-59
+2025-09-15 22:08:58,800 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-59
+2025-09-15 22:08:58,814 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-91
+2025-09-15 22:08:58,814 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-62
+2025-09-15 22:08:58,815 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-91
+2025-09-15 22:08:58,815 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-62
+2025-09-15 22:08:58,817 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-68
+2025-09-15 22:08:58,817 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-68
+2025-09-15 22:08:58,819 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-72
+2025-09-15 22:08:58,820 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-72
+2025-09-15 22:08:58,836 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-94
+2025-09-15 22:08:58,836 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-94
+2025-09-15 22:08:58,839 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-87
+2025-09-15 22:08:58,840 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-87
+2025-09-15 22:10:06,298 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-92
+2025-09-15 22:10:06,298 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-92
+2025-09-15 22:10:06,313 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-76
+2025-09-15 22:10:06,314 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-76
+2025-09-15 22:10:06,330 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-97
+2025-09-15 22:10:06,330 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-97
+2025-09-15 22:10:06,333 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-67
+2025-09-15 22:10:06,334 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-67
+2025-09-15 22:10:06,353 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-80
+2025-09-15 22:10:06,354 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-80
+2025-09-15 22:10:06,375 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-85
+2025-09-15 22:10:06,375 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-85
+2025-09-15 22:10:08,294 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-89
+2025-09-15 22:10:08,295 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-89
+2025-09-15 22:10:08,298 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-74
+2025-09-15 22:10:08,298 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-74
+2025-09-15 22:10:08,328 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-70
+2025-09-15 22:10:08,329 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-70
+2025-09-15 22:10:08,330 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-82
+2025-09-15 22:10:08,330 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-98
+2025-09-15 22:10:08,330 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-82
+2025-09-15 22:10:08,331 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-98
+2025-09-15 22:10:08,333 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-73
+2025-09-15 22:10:08,334 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-73
+2025-09-15 22:10:08,341 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-65
+2025-09-15 22:10:08,341 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-69
+2025-09-15 22:10:08,343 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-81
+2025-09-15 22:10:08,342 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-65
+2025-09-15 22:10:08,343 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-69
+2025-09-15 22:10:08,343 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-81
+2025-09-15 22:10:08,356 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-93
+2025-09-15 22:10:08,356 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-93
+2025-09-15 22:10:08,359 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-83
+2025-09-15 22:10:08,360 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-83
+2025-09-15 22:10:08,361 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-90
+2025-09-15 22:10:08,361 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-90
+2025-09-15 22:10:08,366 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-77
+2025-09-15 22:10:08,366 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-77
+2025-09-15 22:10:08,368 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-78
+2025-09-15 22:10:08,368 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-78
+2025-09-15 22:10:08,368 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-88
+2025-09-15 22:10:08,369 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-88
+2025-09-15 22:10:08,390 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-75
+2025-09-15 22:10:08,390 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-75
+2025-09-15 22:10:08,593 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-100
+2025-09-15 22:10:08,593 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-100
+2025-09-15 22:11:17,944 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-84
+2025-09-15 22:11:17,944 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-84
+2025-09-15 22:11:17,954 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-86
+2025-09-15 22:11:17,954 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-86
+2025-09-15 22:11:18,194 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-99
+2025-09-15 22:11:18,196 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-99
+2025-09-15 22:11:18,197 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2025-09-15 22:11:18,198 INFO o.a.j.r.Summariser: summary +   9999 in 00:04:43 =   35.3/s Avg:  1199 Min:     2 Max: 69762 Err:     0 (0.00%) Active: 0 Started: 100 Finished: 100
+2025-09-15 22:11:18,199 INFO o.a.j.r.Summariser: summary =  10000 in 00:04:44 =   35.2/s Avg:  1199 Min:     2 Max: 69762 Err:     0 (0.00%)
+2025-09-15 22:11:18,200 INFO o.a.j.JMeter: Generating Dashboard
+2025-09-15 22:11:18,201 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2025-09-15 22:11:18,285 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2025-09-15 22:11:18,934 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2025-09-15 22:11:18,935 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2025-09-15 22:11:18,942 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2025-09-15 22:11:18,942 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2025-09-15 22:11:18,955 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2025-09-15 22:11:18,964 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2025-09-15 22:11:18,965 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2025-09-15 22:11:18,965 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2025-09-15 22:11:19,163 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2025-09-15 22:11:19,165 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2025-09-15 22:11:19,165 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2025-09-15 22:11:19,166 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2025-09-15 22:11:19,333 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2025-09-15 22:11:19,334 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 70000 samples
+2025-09-15 22:11:19,335 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2025-09-15 22:11:19,335 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2025-09-15 22:11:19,335 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2025-09-15 22:11:19,336 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2025-09-15 22:11:19,336 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2025-09-15 22:11:19,337 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2025-09-15 22:11:19,338 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2025-09-15 22:11:19,340 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2025-09-15 22:11:19,340 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2025-09-15 22:11:19,340 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2025-09-15 22:11:19,341 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 150000 samples
+2025-09-15 22:11:19,341 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 30000 samples
+2025-09-15 22:11:19,341 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 10000 samples
+2025-09-15 22:11:19,343 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 10000 samples produced in 1s 15 ms on channel 0
+2025-09-15 22:11:19,343 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2025-09-15 22:11:19,545 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2025-09-15 22:11:19,545 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2025-09-15 22:11:19,546 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2025-09-15 22:11:19,547 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2025-09-15 22:11:19,552 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to /jmeter/report/statistics.json
+2025-09-15 22:11:19,608 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2025-09-15 22:11:19,617 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: /jmeter/report
+2025-09-15 22:11:19,759 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: /jmeter/report, creating folder structure
+2025-09-15 22:11:19,771 INFO o.a.j.r.d.TemplateVisitor: Copying folder from '/opt/apache-jmeter-5.5/bin/report-template' to '/jmeter/report', got message: /jmeter/report, found non empty folder with following content [/jmeter/report/statistics.json], will be ignored
+2025-09-15 22:11:21,281 INFO o.a.j.JMeter: Dashboard generated
