@@ -22,7 +22,9 @@ and add Spotbugs, stylechecking (lint) and SBOM.
 
 Performance testing is done in a containerized environment with Docker.
 
-We use a previous OLA we did in the Software Quality course, because it provides an example application, complete with unit- integration- and system tests that are veryfiable by Maven. 
+We use a previous OLA we did in the Software Quality course, because it provides an example application complete with unit- integration- and system tests that are verifyable by Maven. 
+
+
 
 ## Deliverables: 
 

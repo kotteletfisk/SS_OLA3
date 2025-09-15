@@ -32,3 +32,15 @@ jobs:
       
     - name: Build Project with Maven
       run: mvn -B package --file pom.xml
+
+    - name: Upload All Reports
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: reports
+        path: |
+          target/site/jacoco/
+          spotbugs/
+          perf-tests/report/
+          perf-tests/jmeter.log
+          cyclonedx/
