@@ -44,3 +44,4 @@ jobs:
           perf-tests/report/
           perf-tests/jmeter.log
           cyclonedx/
+        overwrite: true
