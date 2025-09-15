@@ -20,5 +20,9 @@ Second step will only be executed on succesful test phase.
 We will add our current test pipeline (unit, integration, System, code coverage and performance testing),
 and add Spotbugs, stylechecking (lint) and SBOM.
 
+Performance testing is done in a containerized environment with Docker.
+
+We use a previous OLA we did in the Software Quality course, because it provides an example application, complete with unit- integration- and system tests that are veryfiable by Maven. 
+
 ## Deliverables: 
 
