@@ -1,11 +1,11 @@
 package com.kfisk;
 
+import java.io.File;
+import java.io.IOException;
+
 import org.junit.jupiter.api.Test;
 import org.testcontainers.containers.GenericContainer;
 import org.testcontainers.utility.MountableFile;
-
-import java.io.File;
-import java.io.IOException;
 
 public class PerfTest {
 
@@ -32,6 +32,7 @@ public class PerfTest {
 
             ProcessBuilder pb = new ProcessBuilder(
                     "docker", "run", "--rm",
+                    "-u", "1000:1000",
                     "-v", new File("perf-tests").getAbsolutePath() + ":/jmeter",
                     "-w", "/jmeter",
                     "justb4/jmeter",

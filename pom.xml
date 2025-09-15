@@ -178,7 +178,49 @@
                     </execution>
                 </executions>
             </plugin>
-
+            <!-- Spotbugs -->
+            <plugin>
+                <groupId>com.github.spotbugs</groupId>
+                <artifactId>spotbugs-maven-plugin</artifactId>
+                <version>4.9.4.2</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>check</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <spotbugsXmlOutputDirectory>
+                        spotbugs/
+                    </spotbugsXmlOutputDirectory>
+                    <failOnError>false</failOnError>
+                </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>com.github.spotbugs</groupId>
+                        <artifactId>spotbugs</artifactId>
+                        <version>4.9.5</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
+            <!-- CycloneDX (SBOM) -->
+            <plugin>
+                <groupId>org.cyclonedx</groupId>
+                <artifactId>cyclonedx-maven-plugin</artifactId>
+                <version>2.9.1</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>makeAggregateBom</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <outputDirectory>cyclonedx/</outputDirectory>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
