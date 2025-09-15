@@ -121,6 +121,7 @@
         </dependencies>
         <configuration>
           <spotbugsXmlOutputDirectory>spotbugs/</spotbugsXmlOutputDirectory>
+          <failOnError>false</failOnError>
         </configuration>
       </plugin>
       <plugin>

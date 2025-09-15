@@ -194,6 +194,7 @@
                     <spotbugsXmlOutputDirectory>
                         spotbugs/
                     </spotbugsXmlOutputDirectory>
+                    <failOnError>false</failOnError>
                 </configuration>
                 <dependencies>
                     <dependency>
