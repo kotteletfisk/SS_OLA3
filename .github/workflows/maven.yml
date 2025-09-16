@@ -16,32 +16,46 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v4
-    - name: Set up JDK 21
-      uses: actions/setup-java@v4
-      with:
-        java-version: '21'
-        distribution: 'temurin'
-        cache: maven
-    - name: Create Test Container Image
-      run: docker build -t taskmanageapi:test ./
-      
-    - name: Build Project with Maven
-      run: mvn -B package --file pom.xml
+      - uses: actions/checkout@v4
 
-    - name: Upload All Reports
-      if: always()
-      uses: actions/upload-artifact@v4
-      with:
-        name: reports
-        path: |
-          target/site/jacoco/
-          spotbugs/
-          perf-tests/report/
-          perf-tests/jmeter.log
-          cyclonedx/
-        overwrite: true
+      - name: Set up JDK 21
+        uses: actions/setup-java@v4
+        with:
+          java-version: '21'
+          distribution: 'temurin'
+          cache: maven
+
+      - name: Build Docker image
+        run: docker build -t taskmanageapi:test .
+
+      - name: Build & Verify with Maven
+        run: mvn -B clean verify --file pom.xml
+
+      - name: Log in to GitHub Container Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Push image to GitHub Container Registry
+        run: |
+          IMAGE=ghcr.io/${{ github.repository }}/app:pr-${{ github.event.number || github.run_number }}
+          docker tag taskmanageapi:test $IMAGE
+          docker push $IMAGE
+
+      - name: Upload All Reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: reports
+          path: |
+            target/site/jacoco/
+            spotbugs/
+            perf-tests/report/
+            perf-tests/results.jtl
+            perf-tests/jmeter.log
+            cyclonedx/
+          overwrite: true

@@ -31,4 +31,9 @@ public class Task {
         var t = (Task) o;
         return t.title.equals(this.title) && t.isCompleted == this.isCompleted;
     }
+
+    @Override
+    public int hashCode() {
+        return title.hashCode() + (isCompleted ? 1 : 0);
+    }
 }

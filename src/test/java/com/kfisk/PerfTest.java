@@ -22,7 +22,8 @@ public class PerfTest {
                 .withExposedPorts(7000)) {
 
             api.start();
-            int mappedPort = api.getMappedPort(7000);
+            String apiHost = api.getHost();
+            int apiPort = api.getMappedPort(7000);
 
             File reportDir = new File("perf-tests/report");
 
@@ -57,8 +58,8 @@ public class PerfTest {
                     "justb4/jmeter",
                     "-n",
                     "-t", "test-plan.jmx",
-                    "-JAPI_HOST=host.docker.internal",
-                    "-JAPI_PORT=" + mappedPort,
+                    "-JAPI_HOST=" + apiHost,
+                    "-JAPI_PORT=" + apiPort,
                     "-l", "results.jtl",
                     "-e", "-o", "report"));
 

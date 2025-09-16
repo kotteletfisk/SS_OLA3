@@ -15,7 +15,7 @@
 
       <!-- Thread group is how many concurrent triggers we want - in this case it is the amount of "users" that are sending requests to the API concurently -->
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Users" enabled="true">
-        <stringProp name="ThreadGroup.num_threads">100</stringProp>
+        <stringProp name="ThreadGroup.num_threads">10</stringProp>
         <stringProp name="ThreadGroup.ramp_time">5</stringProp>
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
 
@@ -24,7 +24,7 @@
                      guiclass="LoopControlPanel" testclass="LoopController"
                      testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
-          <stringProp name="LoopController.loops">100</stringProp>
+          <stringProp name="LoopController.loops">10</stringProp>
         </elementProp>
       </ThreadGroup>
       <hashTree>

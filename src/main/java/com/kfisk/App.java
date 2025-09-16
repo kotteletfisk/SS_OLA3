@@ -3,6 +3,7 @@ package com.kfisk;
 import io.javalin.Javalin;
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.Connection;
 
 public class App {
     public static void main(String[] args) throws Exception{
@@ -20,7 +21,7 @@ public class App {
 
         var controller = new RouteController(conn);
 
-        var app = Javalin.create()
+        var App = Javalin.create()
                 .get("/api/getAllTasks", controller::getAllTasks)
                 .post("/api/createTask", controller::createTask)
                 .put("/api/setTaskComplete", controller::setTaskComplete)
