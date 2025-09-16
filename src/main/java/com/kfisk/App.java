@@ -21,7 +21,7 @@ public class App {
 
         var controller = new RouteController(conn);
 
-        var app = Javalin.create()
+        var App = Javalin.create()
                 .get("/api/getAllTasks", controller::getAllTasks)
                 .post("/api/createTask", controller::createTask)
                 .put("/api/setTaskComplete", controller::setTaskComplete)

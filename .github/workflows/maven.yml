@@ -33,18 +33,18 @@ jobs:
       - name: Build & Verify with Maven
         run: mvn -B clean verify --file pom.xml
 
-#      - name: Log in to GitHub Container Registry
-#        uses: docker/login-action@v3
-#        with:
-#          registry: ghcr.io
-#          username: ${{ github.actor }}
-#          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Log in to GitHub Container Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
 
-#      - name: Push image to GitHub Container Registry
-#        run: |
-#          IMAGE=ghcr.io/${{ github.repository }}/app:pr-${{ github.event.number || github.run_number }}
-#          docker tag taskmanageapi:test $IMAGE
-#          docker push $IMAGE
+      - name: Push image to GitHub Container Registry
+        run: |
+          IMAGE=ghcr.io/${{ github.repository }}/app:pr-${{ github.event.number || github.run_number }}
+          docker tag taskmanageapi:test $IMAGE
+          docker push $IMAGE
 
       - name: Upload All Reports
         if: always()
