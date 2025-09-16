@@ -58,4 +58,5 @@ jobs:
             perf-tests/results.jtl
             perf-tests/jmeter.log
             cyclonedx/
+            target/checkstyle-result.xml
           overwrite: true
